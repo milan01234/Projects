@@ -2,4 +2,6 @@
 from django.contrib import admin
 from .models import Product
 
-admin.site.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+    readonly_fileds=('id',)
+admin.site.register(Product,ProductAdmin)
