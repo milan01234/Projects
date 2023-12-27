@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'ecommerse.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'products',
+        'NAME': 'Ecommers',
         'USER': 'root',
         'PASSWORD': '1234',
         'PORT': 3306,
